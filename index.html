@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Healthy Life - نمط الحياة الصحي</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5faf5;
+    color: #333;
+    line-height: 1.8;
+}
+
+header {
+    background-color: #237a50;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 0;
+}
+
+nav {
+    background-color: #185c3a;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b9f6ca;
+}
+
+.hero {
+    background: linear-gradient(#0005, #0005),
+    url("https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1400");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 38px;
+}
+
+section {
+    padding: 45px 8%;
+    text-align: center;
+}
+
+section h2 {
+    color: #237a50;
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 3px 12px #0002;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #237a50;
+}
+
+.about {
+    background-color: #e6f4e9;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: auto;
+    padding: 25px;
+}
+
+.contact {
+    background-color: #e6f4e9;
+}
+
+footer {
+    background-color: #185c3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #237a50;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #185c3a;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌿 Healthy Life</h1>
+    <p>حياتك الصحية تبدأ من هنا</p>
+</header>
+
+<nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#about">من نحن</a>
+    <a href="#food">التغذية الصحية</a>
+    <a href="#sport">الرياضة</a>
+    <a href="#sleep">النوم الصحي</a>
+    <a href="#contact">تواصل معنا</a>
+</nav>
+
+<div class="hero" id="home">
+    <h2>ابدأ حياة صحية اليوم!</h2>
+    <p>صحتك هي ثروتك الحقيقية، اهتم بها كل يوم.</p>
+    <a href="#food">
+        <button>اكتشف المزيد</button>
+    </a>
+</div>
+
+<section id="about">
+    <h2>من نحن؟</h2>
+    <div class="about">
+        <h3>مرحباً بكم في موقع Healthy Life 🌱</h3>
+        <p>
+        أنا لمار حكمت، من الصف العاشر (ج)،
+        مهتمة بالصحة والرياضة، وقمت بإنشاء هذا الموقع
+        للتوعية بأهمية اتباع نمط حياة صحي ومتوازن.
+        </p>
+        <p>
+        يهدف الموقع إلى تقديم معلومات ونصائح حول
+        التغذية الصحية، والرياضة، والنوم الجيد،
+        والمحافظة على الصحة الجسدية والنفسية.
+        </p>
+        <p><strong>بإشراف المعلمة: عطاف</strong></p>
+    </div>
+</section>
+
+<section id="food">
+    <h2>🥗 التغذية الصحية</h2>
+    <p>الغذاء الصحي يساعد الجسم على النمو ويمنحه الطاقة.</p>
+
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500" alt="سلطة">
+            <h3>الخضراوات والفواكه</h3>
+            <p>تناول الخضراوات والفواكه يومياً للحصول على الفيتامينات والمعادن.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500" alt="خبز">
+            <h3>الحبوب الكاملة</h3>
+            <p>تساعد الحبوب الكاملة على توفير الطاقة والألياف للجسم.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=500" alt="طعام صحي">
+            <h3>الغذاء المتوازن</h3>
+            <p>احرص على تناول وجبات متنوعة ومتوازنة.</p>
+        </div>
+    </div>
+</section>
+
+<section id="sport">
+    <h2>🏃‍♀️ الرياضة واللياقة البدنية</h2>
+    <p>الرياضة مهمة لصحة الجسم والعقل.</p>
+
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=500" alt="الجري">
+            <h3>المشي والجري</h3>
+            <p>يساعد المشي والجري على تقوية القلب وتحسين اللياقة.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500" alt="التمارين">
+            <h3>التمارين الرياضية</h3>
+            <p>مارس التمارين الرياضية بانتظام للمحافظة على نشاطك.</p>
+        </div>
+    </div>
+</section>
+
+<section id="sleep">
+    <h2>😴 النوم الصحي</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=500" alt="غرفة نوم">
+            <h3>النوم الكافي</h3>
+            <p>النوم الجيد يساعد على التركيز وتجديد نشاط الجسم.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=500" alt="صباح">
+            <h3>تنظيم الوقت</h3>
+            <p>حافظ على مواعيد نوم واستيقاظ منتظمة.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>💚 نصائح لحياة صحية</h2>
+    <div class="about">
+        <p>✔ اشرب كمية كافية من الماء.</p>
+        <p>✔ تناول وجبات غذائية متوازنة.</p>
+        <p>✔ مارس الرياضة بانتظام.</p>
+        <p>✔ احصل على نوم كافٍ.</p>
+        <p>✔ ابتعد عن العادات الغذائية غير الصحية.</p>
+        <p>✔ اهتم بصحتك النفسية وخذ وقتاً للراحة.</p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>📞 تواصل معنا</h2>
+    <div class="about">
+        <p><strong>الاسم:</strong> لمار حكمت</p>
+        <p><strong>الصف:</strong> العاشر (ج)</p>
+        <p><strong>رقم الهاتف:</strong> 07800000</p>
+        <p><strong>البريد الإلكتروني:</strong> lamarhkmat</p>
+        <p><strong>بإشراف المعلمة:</strong> عطاف</p>
+    </div>
+</section>
+
+<footer>
+    <p>🌿 Healthy Life - نمط الحياة الصحي</p>
+    <p>جميع الحقوق محفوظة © 2026</p>
+    <p>إعداد الطالبة: لمار حكمت - الصف العاشر (ج)</p>
+</footer>
+
+</body>
+</html>
+
+
